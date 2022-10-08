@@ -34,7 +34,7 @@ function decideWinner() {
     } else if (playerChoice == 'rock' && computerChoice == 'paper') {
         result.innerHTML=("Computer win!");
     } else { 
-        // playerChoice == 'scissors' && computerChoice == 'paper'
+        // if player chooses scissors and computer chooses paper
         result.innerHTML=("You win!");
     }
     player.innerHTML=(`Your choice: ${playerChoice}`);
