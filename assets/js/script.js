@@ -54,4 +54,3 @@ function runGame(pchoice) {
 }
 
 main();
-console.log('main');
