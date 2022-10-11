@@ -26,13 +26,13 @@ function decideWinner() {
     } else if (playerChoice == 'paper' && computerChoice == 'rock') {
         result.innerHTML=("You win!");
     } else if (playerChoice == 'scissors' && computerChoice == 'rock') {
-        result.innerHTML=("Computer win!");
+        result.innerHTML=("Computer wins!");
     } else if (playerChoice == 'paper' && computerChoice == 'scissors') {
-        result.innerHTML=("Computer win!");
+        result.innerHTML=("Computer wins!");
     } else if (playerChoice == 'rock' && computerChoice == 'scissors') {
         result.innerHTML=("You win!");
     } else if (playerChoice == 'rock' && computerChoice == 'paper') {
-        result.innerHTML=("Computer win!");
+        result.innerHTML=("Computer wins!");
     } else { 
         // if player chooses scissors and computer chooses paper
         result.innerHTML=("You win!");

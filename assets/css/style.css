@@ -9,14 +9,16 @@
     text-align: center;
     font-size: 3rem;
     text-transform: uppercase;
-    margin: 1rem;
-    color: #2a9d8f;
+    padding: 1rem;
+    background-color: #2a9d8f;
+    color: #264653;
 }
 
 .game-area {
     text-align: center;
     display: block;
-    margin: 2rem;
+    padding: 2rem;
+    background-color: #2a9d8f;
 }
 
 button {
@@ -25,8 +27,8 @@ button {
     height: 25vh;
     text-decoration: none;
     border: none;
-    color: #e9c46a;
-    margin-bottom: 2rem;
+    border-radius: 10%;
+    margin: 0.5rem;
 }
 
 #rock {
@@ -41,9 +43,22 @@ button {
     color: #e76f51;
 }
 
+#rock:hover, #paper:hover, #scissors:hover{
+    color: #2a9d8f;
+}
+
+.results-area {
+    text-align: center;
+    display: block;
+}
+
 #player, #computer, #result {
     color: white;
     text-transform: uppercase;
-    font-size: larger;
+    text-align: center;
+    padding: 1rem;
 }
 
+#result {
+    font-size: xx-large;
+}
