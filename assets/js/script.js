@@ -9,6 +9,12 @@ let result = document.getElementById('result');
 let player = document.getElementById('player');
 let computer = document.getElementById('computer');
 
+let playerScore = 0;
+let computerScore = 0;
+
+const playercore_span = document.getElementById('player-score');
+const computerScore_span = document.getElementById('computer-score');
+
 function computerSelectsAMove() {
     let randomNumber = Math.floor(Math.random()*3);
     if (randomNumber === 0) {

@@ -2,12 +2,15 @@
     font-family: 'Raleway', sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #264653;
 }
 
 .heading {
     text-align: center;
     font-size: 3rem;
+    text-transform: uppercase;
     margin: 1rem;
+    color: #2a9d8f;
 }
 
 .game-area {
@@ -20,6 +23,27 @@ button {
     font-size: 6rem;
     width: 25vw;
     height: 25vh;
-    margin: 0.25em;
+    text-decoration: none;
+    border: none;
+    color: #e9c46a;
+    margin-bottom: 2rem;
+}
+
+#rock {
+    color: #e9c46a;
+}
+
+#paper {
+    color: #f4a261;
+}
+
+#scissors {
+    color: #e76f51;
+}
+
+#player, #computer, #result {
+    color: white;
+    text-transform: uppercase;
+    font-size: larger;
 }
 
