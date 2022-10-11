@@ -62,3 +62,20 @@ button {
 #result {
     font-size: xx-large;
 }
+
+/* mobile screens */
+@media screen and (max-width: 640px) {
+    .heading {
+        font-size: x-large;
+    }
+
+    .game-area {
+        padding: 0.25rem;
+    }
+
+    button {
+        font-size: 4rem;
+        width: 25vw;
+        height: 15vh;
+    }
+}
