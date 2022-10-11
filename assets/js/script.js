@@ -23,19 +23,26 @@ function computerSelectsAMove() {
 function decideWinner() {
     if (playerChoice === computerChoice) {
         result.innerHTML=("It's a tie");
+        result.style.backgroundColor = '#e9c46a';
     } else if (playerChoice == 'paper' && computerChoice == 'rock') {
         result.innerHTML=("You win!");
+        result.style.backgroundColor = '#2a9d8f';
     } else if (playerChoice == 'scissors' && computerChoice == 'rock') {
         result.innerHTML=("Computer wins!");
+        result.style.backgroundColor = '#e76f51';
     } else if (playerChoice == 'paper' && computerChoice == 'scissors') {
         result.innerHTML=("Computer wins!");
+        result.style.backgroundColor = '#e76f51';
     } else if (playerChoice == 'rock' && computerChoice == 'scissors') {
         result.innerHTML=("You win!");
+        result.style.backgroundColor = '#2a9d8f';
     } else if (playerChoice == 'rock' && computerChoice == 'paper') {
         result.innerHTML=("Computer wins!");
+        result.style.backgroundColor = '#e76f51';
     } else { 
         // if player chooses scissors and computer chooses paper
         result.innerHTML=("You win!");
+        result.style.backgroundColor = '#2a9d8f';
     }
     player.innerHTML=(`Your choice: ${playerChoice}`);
     computer.innerHTML=(`Computer choice: ${computerChoice}`);

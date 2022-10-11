@@ -52,15 +52,20 @@ button {
     display: block;
 }
 
+
 #player, #computer, #result {
-    color: white;
     text-transform: uppercase;
     text-align: center;
     padding: 1rem;
 }
 
 #result {
+    color: #264653;
     font-size: xx-large;
+}
+
+#player, #computer {
+    color: white;
 }
 
 /* mobile screens */
