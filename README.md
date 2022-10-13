@@ -66,7 +66,22 @@ Another thing I would like to change would be the arrangement of the text once y
 
 <h2>Validation Credits</h2>
 <h3>W3c HTML Validation service</h3>
-<img src="" alt="">
+<img src="assets/images/html-check.png" alt="html validation check">
+<h3>W3c CSS Validation service</h3>
+<img src="assets/images/css-check.png" alt="css validation check">
+<h3>JSHint</h3>
+<img src="assets/images/js-check.png" alt="js validation check">
+<h3>WebDev Tools Chrome </h3>
+<p>I used web dev tools to do a Lighthouse check in chrome to access the quality & accessibility of the webpage. It gave me insight into how the RockPaperScissors website performed & scored highly in Performance, Accessibility, Best Practices & SEO for both desktop & mobile devices
+</p>
+<h4>Mobile Devices</h4>
+<img src="assets/images/mobile-check.png" alt="mobile device validation check">
+<h4>Desktop Devices</h4>
+<img src="assets/images/desktop-check.png" alt="desktop devices validation check">
+
+<h2>Deployment</h2>
+<p>The site was deployed to GitHub pages. The steps to deploy are as follows: In the GitHub repository, navigate to the Settings tab From the source section drop-down menu, select the Master Branch Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. The live link can be found here - https://nikkilemon.github.io/rock-paper-scissors/</p>
+
 
 <h2>Credits</h2>
 <p>Contents</p>
@@ -74,3 +89,9 @@ Another thing I would like to change would be the arrangement of the text once y
 <li>The icons used from the game and the footer were from FontAwesome</li>
 <li>The font on the site was from Google Fonts and is called Raleway
 </ul>
+
+<h2>Acknowledgements</h2>
+<ul>
+<li>Martina-mentor - Martina was a massive help to me in this project and I have completed it feeling confident and happy with the outcome</li>
+<li>Code Institute Slack Channel - where was fellow sudents helped me overcome overwhelming sections and issues I was finding in JS. </li>
+<li>Rob Selway - a friend who helped me really understand JS and going back to the basics again when I needed the help. 
