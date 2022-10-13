@@ -1,7 +1,7 @@
 <h1>Rock, Paper, Scissors</h1>
 
 <p>Deployed website - https://nikkilemon.github.io/rock-paper-scissors/</p>
-<p>Github - </p>
+<p>Github - https://github.com/NikkiLemon/rock-paper-scissors.git</p>
 
 <img src="assets/images/screenshot-devices.png" alt="different devices showing rock, paper, scissors website game" title="rock paper scissors on different devices">
 
