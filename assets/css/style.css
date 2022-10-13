@@ -57,9 +57,8 @@ button {
 }
 
 #results-area {
-    display: flexbox;
     color: #264653;
-    height: 40vh;
+    height: 35vh;
     align-items: center;
     justify-content: center;
 }
